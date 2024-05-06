@@ -2,12 +2,12 @@ const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
 const dbConfig = require("./db");
-const sessionRoute = require("./routes/sessionRoute");
-const usersRoute = require("./routes/userRoute");
-const bookingRoute = require("./routes/bookingRoute");
-const Contactusscreen = require("./routes/ContactusRoute");
-const Aboutusscreen = require("./routes/AboutusRoute");
-const Mainscreen = require("./routes/mainRoute");
+const sessionRoute = require("../routes/sessionRoute");
+const usersRoute = require("../routes/userRoute");
+const bookingRoute = require("../routes/bookingRoute");
+const Contactusscreen = require("../routes/ContactusRoute");
+const Aboutusscreen = require("../routes/AboutusRoute");
+const Mainscreen = require("../routes/mainRoute");
 
 const app = express();
 app.use(cors()); // Allow requests from all origins
