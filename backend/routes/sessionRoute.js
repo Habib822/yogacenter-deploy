@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Session = require("../models/session"); // Import the Session model
+const Session = require("../backend/models/session"); // Import the Session model
 
 // Route to test the sessionRoute
 router.get("/session", (req, res) => {

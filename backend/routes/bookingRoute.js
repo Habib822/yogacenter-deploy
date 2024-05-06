@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Booking = require("../models/booking");
 const moment = require("moment");
-const Session = require("../models/session");
+const Session = require("../backend/models/session");
 
 
 router.post("/booksession", async (req, res) => {
