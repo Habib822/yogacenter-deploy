@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yogacenter/static/css/main.c108d74e.css",
+    "main.js": "/yogacenter/static/js/main.867851d6.js",
+    "static/js/453.7b14f2b6.chunk.js": "/yogacenter/static/js/453.7b14f2b6.chunk.js",
+    "static/media/wallpaper.png": "/yogacenter/static/media/wallpaper.aa007cb8a17460bb117b.png",
+    "index.html": "/yogacenter/index.html",
+    "main.c108d74e.css.map": "/yogacenter/static/css/main.c108d74e.css.map",
+    "main.867851d6.js.map": "/yogacenter/static/js/main.867851d6.js.map",
+    "453.7b14f2b6.chunk.js.map": "/yogacenter/static/js/453.7b14f2b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c108d74e.css",
+    "static/js/main.867851d6.js"
+  ]
+}
