@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const User = require("./backend/models/user");
+const User = require("../models/user");
 
 router.post("/register", async (req, res) => {
   const newuser = new User(req.body);
