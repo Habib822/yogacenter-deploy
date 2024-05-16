@@ -21,7 +21,7 @@ app.get("/session", (req, res) => {
   res.send("Server is running!");
 });
 
-app.use("/api/session", sessionRoute);
+app.use("/api/sessions", sessionRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/bookings", bookingRoute);
 app.use("/api/Contactus", Contactusscreen);

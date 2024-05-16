@@ -4,7 +4,6 @@ import api from "../service/api";
 
 import Loader from "../component/Loader";
 
-
 const { TabPane } = Tabs;
 
 function AdminScreen() {
@@ -119,7 +118,7 @@ export function Sessions() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await api.get("/api/session/getallsessions");
+        const response = await api.get("/api/session/getallsession");
         setsessions(response.data);
         setLoading(false);
       } catch (error) {
@@ -169,7 +168,7 @@ export function Sessions() {
 export function Users() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [ setError] = useState();
+  const [setError] = useState();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -186,7 +185,7 @@ export function Users() {
     };
 
     fetchData();
-  }, );
+  });
 
   return (
     <div className="row">
@@ -222,7 +221,6 @@ export function Users() {
 }
 
 export function AddSession() {
-  
   const [name, setname] = useState();
   const [duration, setduration] = useState();
   const [price, setprice] = useState();

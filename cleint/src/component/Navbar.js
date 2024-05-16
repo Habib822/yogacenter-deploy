@@ -12,9 +12,9 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-xl ">
-        <a className="navbar-brand" href="/Main">
+        {/* <a className="navbar-brand" href="/Main">
           <img className="Logo" src="/images/logo.png" alt="small" />
-        </a>
+        </a> */}
         <button
           className="navbar-toggler"
           type="button"

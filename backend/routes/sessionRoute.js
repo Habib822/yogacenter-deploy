@@ -11,13 +11,13 @@ router.get("/session", (req, res) => {
 router.get("/getallsessions", async (req, res) => {
   try {
     const sessions = await Session.find({}); // Use the Session model to find sessions
-    res.send(sessions);
+    res.send(Sessions);
   } catch (error) {
     return res.status(400).json({ message: error });
   }
 });
 
-router.post("/getsessionbyid", async (req, res) => {
+router.post("/getsessionsbyid", async (req, res) => {
   const sessionid = req.body.sessionid;
   try {
     const sessionById = await Session.findOne({ _id: sessionid }); // Use findOne instead of findone
